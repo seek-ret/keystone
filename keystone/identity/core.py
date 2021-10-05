@@ -987,7 +987,7 @@ class Manager(manager.Manager):
         PROVIDERS.resource_api.get_domain(domain_id)
 
         self._assert_default_project_id_is_not_domain(
-            user_ref.get('default_project_id'))
+            user_ref.get('other_project_id'))
 
         # For creating a user, the domain is in the object itself
         domain_id = user_ref['domain_id']
