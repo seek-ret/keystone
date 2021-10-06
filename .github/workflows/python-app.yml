@@ -30,10 +30,11 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         message: |
-          Mapping summary for "My Cool Snapshot!" (compared with "Version 1.0.3" at 2021-09-02 13:54:56 GMT): 
-          * 1 endpoint added
-          * 1 endpoint removed
-          * 8 endpoints changed
+          ![Seekret](https://seekret.io/wp-content/uploads/2021/10/finallogo-2.png)
+          Mapping summary for "My Cool Snapshot!" (compared with "Version 1.0.3" at 2021-09-02 13:54:56 GMT):
+                    * **1** endpoint changed
+                    * **0** endpoint removed
+                    * **0** endpoints changed
 
           You can view the full summary using [Seekret platform](https://demo.seekret.com/default/changes?revisionLeft=%22f18d4140-dd31-4e94-93c6-73ad1f060a72%22&revisionRight=%22e0bad10f-a01a-4765-86e2-2723baeaef76%22)
         repo-token: ${{ secrets.GITHUB_TOKEN }}
