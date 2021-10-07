@@ -31,12 +31,12 @@ jobs:
       with:
         message: |
           ![Seekret](https://seekret.io/wp-content/uploads/2021/10/finallogo-2.png)
-          Mapping summary for "My Cool Snapshot!" (compared with "Version 1.0.3" at 2021-09-02 13:54:56 GMT):
+          Mapping summary for "feature/change" (compared with "Stable"):
                     * **1** endpoint changed
                     * **0** endpoint removed
                     * **0** endpoints changed
 
-          You can view the full summary using [Seekret platform](https://demo.seekret.com/default/changes?revisionLeft=%22f18d4140-dd31-4e94-93c6-73ad1f060a72%22&revisionRight=%22e0bad10f-a01a-4765-86e2-2723baeaef76%22)
+          You can view the full summary using [Seekret platform](https://play.seekret.io/PR/changes?envLeft=%22PR%22&envRight=%22PR%22&revisionLeft=%22d5665380-f921-4c44-beef-4953ee4f1097%22&revisionRight=%22766fa56a-b8e1-423a-8833-11073e314171%22)
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
         allow-repeats: false # This is the default
