@@ -304,7 +304,7 @@ def new_user_ref(domain_id, project_id=None, **kwargs):
         'password': uuid.uuid4().hex,
     }
     if project_id:
-        ref['default_project_id'] = project_id
+        ref['other_project_id'] = project_id
     ref.update(kwargs)
     return ref
 
