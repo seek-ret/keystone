@@ -38,7 +38,7 @@ jobs:
             * **0** endpoints added
 
 
-          You can view a full summary using the [Seekret platform](https://play.seekret.io/PR/changes?envLeft=%22PR%22&envRight=%22PR%22&revisionLeft=%22d5665380-f921-4c44-beef-4953ee4f1097%22&revisionRight=%22766fa56a-b8e1-423a-8833-11073e314171%22)
+          You can view a full summary using the [Seekret platform](https://demo.seekret.io/default/changes?envLeft=%22default%22&envRight=%22default%22&revisionLeft=%22f18d4140-dd31-4e94-93c6-73ad1f060a72%22&revisionRight=%22e0bad10f-a01a-4765-86e2-2723baeaef76%22)
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
         allow-repeats: false # This is the default
